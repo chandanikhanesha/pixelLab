@@ -1,0 +1,129 @@
+.footer_container {
+  margin-top: 100px;
+  width: 100%;
+  background: #19005e 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  padding: 50px;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.footer_col {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  font-size: 18px;
+}
+.title_footer {
+  margin-bottom: 25px;
+  font-size: 23px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.footer_logo {
+  height: 70px;
+  padding-right: 18px;
+}
+.footer_btn {
+  width: 425px;
+  text-transform: capitalize;
+  font-size: 20px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.footer_link {
+  color: white;
+  text-decoration: none;
+}
+.footer_link:focus {
+  color: #fe0c7c;
+}
+.footer_link:hover {
+  color: #fe0c7c;
+}
+.icon_link {
+  color: white;
+  text-decoration: none;
+}
+.icon_link:focus {
+  color: white;
+}
+.icon_link:hover {
+  color: white;
+}
+.media_icon {
+  background: transparent linear-gradient(153deg, #079cd4 0%, #f33fff 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  color: white;
+  margin-top: 20px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  background-size: 300% 100%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.media_icon.color-1 {
+  background-image: linear-gradient(
+    to right,
+    #079cd4,
+    #f33fff,
+    #25aae1,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.media_icon:focus {
+  outline: none;
+}
+.media_icon:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer_container {
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .row {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .footer_col {
+    text-align: center;
+    padding: 30px;
+  }
+  .footer_btn {
+    align-items: center;
+    width: 100%;
+  }
+  .colClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+  }
+  .slider_container {
+    width: 100%;
+  }
+}

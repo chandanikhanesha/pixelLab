@@ -1,0 +1,377 @@
+/* few clicking container */
+
+.main_container {
+  overflow: hidden;
+}
+.title_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.centerclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-prev {
+  left: -20px;
+}
+.arrow-next {
+  right: 20px;
+}
+.fewClick_title {
+  text-align: center;
+  font: normal normal 600 30px/45px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  width: 370px;
+  margin-left: 50px;
+  text-transform: capitalize;
+}
+.border_line {
+  width: 380px;
+  height: 7px;
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.marginL_100 {
+  margin-left: 100px;
+}
+.fewClickimg_container {
+  display: flex;
+  flex-direction: column;
+}
+.fewClickimg_small {
+  height: 320px;
+  /* margin-left: 60px; */
+}
+.fewClick_div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.center_col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.circle_sideLeft {
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.circle_sideRight {
+  height: 100%;
+  display: flex;
+}
+.fewClickimg_big {
+  height: 520px;
+}
+.dflexclass {
+  display: flex;
+  justify-content: flex-end;
+}
+.fewClickimg_span {
+  text-align: center;
+  font: normal normal 20px/35px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+
+/* questions container csss */
+
+.que_container {
+  min-height: 430px;
+  max-height: 1850px;
+  margin-bottom: 20px;
+}
+.Artboard_4 {
+  height: 470px;
+  position: absolute;
+}
+
+.Artboard_2 {
+  height: 300px;
+}
+
+.Artboard_19 {
+  height: 300px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+  margin-right: 240px;
+}
+.que_title {
+  margin-left: 45px;
+  font: normal normal 600 41px/71px Poppins;
+  letter-spacing: 0px;
+  color: #fd3894;
+  opacity: 1;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.circle_icon {
+  font: normal normal 20px/49px Poppins;
+  letter-spacing: 0px;
+  color: #07015c;
+  opacity: 1;
+  margin-left: 45px;
+  text-align: left;
+  align-items: baseline;
+  display: flex;
+  margin-bottom: 20px;
+}
+.ml_40 {
+  margin-left: 40px;
+  line-height: 25px;
+  cursor: pointer;
+}
+.question_descriptiion {
+  background: #f8f9fa;
+  width: 360px;
+  text-align: left;
+  margin-left: 100px;
+  padding: 10px;
+}
+.card-body {
+  font-size: 15px;
+  line-height: 25px;
+  padding: 10px;
+  letter-spacing: 0px;
+  color: #07015c;
+  opacity: 1;
+  margin-left: 100px;
+  background: aliceblue;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+/* inside app section css */
+
+.inside_circle {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.slider_container {
+  margin-top: 20px;
+  /* width: 98%; */
+}
+.img_size {
+  height: 525px !important;
+  width: 270px !important;
+
+  margin-bottom: 25px;
+}
+.img_size_extra {
+  width: 470px !important;
+  margin-left: -110px;
+  height: 475px !important;
+}
+
+.img_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+  width: 65% !important;
+  text-transform: capitalize;
+  outline: none;
+}
+.slick-slide div {
+  outline: none;
+}
+
+.arrow_btn {
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  color: #07015c;
+}
+.next {
+  float: right;
+}
+
+/* responsive  */
+
+@media only screen and (max-width: 767px) {
+  .inside_circle,
+  .Artboard_2,
+  .Artboard_4,
+  .circle_sideLeft,
+  .circle_sideRight,
+  .Artboard_19 {
+    display: none;
+  }
+  .fewClickimg_big {
+    margin-top: 10px;
+  }
+  .arrow-prev {
+    left: 10px;
+  }
+  .arrow-next {
+    right: 10px;
+  }
+  .circle_icon {
+    margin-left: 15px;
+  }
+  .ml_40 {
+    margin-left: 15px;
+    line-height: 15px;
+    font-size: 16px;
+  }
+
+  .card-body {
+    margin-left: 15px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .que_title {
+    font-size: 28px;
+    line-height: 45px;
+    margin-left: 15px;
+  }
+  .fewClickimg_span {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  .fewClickimg_container {
+    display: block;
+    margin-left: 0px;
+  }
+  .border_line {
+    width: 100%;
+  }
+  .marginL_100,
+  .fewClick_title {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .title_footer {
+    justify-content: center;
+  }
+  .fewClickimg_small {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1200px) {
+  .arrow-prev {
+    left: 10px;
+  }
+  .arrow-next {
+    right: -20px;
+  }
+  .fewClickimg_small {
+    margin-left: 0px;
+  }
+  .inside_circle,
+  .editPhoto,
+  .circle_sideLeft,
+  .circle_sideRight {
+    display: none;
+  }
+  .Artboard_4 {
+    height: 370px;
+    position: absolute;
+  }
+  .Artboard_19 {
+    height: 215px;
+    margin-top: 35px;
+
+    margin-right: 236px;
+  }
+  .que_container {
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+  }
+  .title_container {
+    flex-direction: column;
+  }
+  .border_line {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .fewClick_title {
+    width: 100%;
+    padding: 25px;
+    margin-left: 0px;
+  }
+  .navbar_container {
+    min-height: 650px;
+  }
+  .footer_col {
+    width: 385px !important;
+  }
+  .fewClickimg_container {
+    margin-left: 30px;
+  }
+  .fewClickimg_span {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (width: 1280px) {
+  .border_line {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .fewClick_title {
+    width: 100%;
+    padding: 25px;
+    margin-left: 0px;
+  }
+  .fewClickimg_container {
+    margin-left: 85px;
+  }
+}
+
+@media only screen and (width: 1920px) {
+  .fewClickimg_container {
+    margin-right: 45px;
+  }
+  .btn_section {
+    margin-left: 320px;
+  }
+  .img_container {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (width: 280px) {
+  .img_container {
+    width: 98% !important;
+  }
+}
+
+@media screen and (min-device-width: 370px) and (max-device-width: 400px) {
+  .img_container {
+    width: 71% !important;
+  }
+}
